@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Monogram_Field_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(Priorvalue(Monogram_VAS__c)=false,ISCHANGED(Monogram_VAS__c)=true,Priorvalue(Monogram_eligible__c)=false)</errorConditionFormula>
+    <errorDisplayField>Monogram_VAS__c</errorDisplayField>
+    <errorMessage>Product is Monogram ineligible</errorMessage>
+</ValidationRule>

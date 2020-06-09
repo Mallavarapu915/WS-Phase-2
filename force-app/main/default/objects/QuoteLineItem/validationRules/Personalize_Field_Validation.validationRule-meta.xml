@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Personalize_Field_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(Priorvalue(Personalize_VAS__c)=false,ISCHANGED(Personalize_VAS__c)=true,Priorvalue(Personalize_eligible__c)=false)</errorConditionFormula>
+    <errorDisplayField>Personalize_VAS__c</errorDisplayField>
+    <errorMessage>Product is Personalize ineligible</errorMessage>
+</ValidationRule>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gift_Wrap_Field_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(Priorvalue(Gift_Wrap_VAS__c)=false,ISCHANGED(Gift_Wrap_VAS__c)=true,Priorvalue(Gift_Wrap_eligible__c)=false)</errorConditionFormula>
+    <errorDisplayField>Gift_Wrap_VAS__c</errorDisplayField>
+    <errorMessage>Product is Gift Wrap ineligible</errorMessage>
+</ValidationRule>

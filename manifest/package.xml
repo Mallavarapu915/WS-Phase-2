@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>CatalogResponseInfo</members>
+		<members>CatalogServiceGetCallout</members>
+		<members>CatalogServiceGetCalloutHttpMock</members>
+		<members>CatalogServiceHttpMock</members>
+		<members>GetPriceTest</members>
+		<members>PricingServiceHelper</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>QuoteLineItem.Catalog_Response__c</members>
+		<members>QuoteLineItem.Concept__c</members>
+		<members>QuoteLineItem.Gift_Wrap_eligible__c</members>
+		<members>QuoteLineItem.Gift_Wrap_VAS__c</members>
+		<members>QuoteLineItem.Monogram_eligible__c</members>
+		<members>QuoteLineItem.Monogram_VAS__c</members>
+		<members>QuoteLineItem.Personalize_eligible__c</members>
+		<members>QuoteLineItem.Personalize_VAS__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members>QuoteLineItem.Gift_Wrap_Field_Validation</members>
+		<members>QuoteLineItem.Monogram_Field_Validation</members>
+		<members>QuoteLineItem.Personalize_Field_Validation</members>
+		<name>ValidationRule</name>
+	</types>
+	<types>
+		<members>QuoteLineItemTrigger</members>
+		<name>ApexTrigger</name>
+	</types>
+	<version>44.0</version>
+</Package>
